@@ -14,11 +14,15 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
 
-    <string name="hello">SnowFlake by Tomtom.soft</string>
-    <string name="app_name">SnowFlake</string>
-    <string name="new_game">New Game</string>
-    <string name="help">Help</string>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello" />
 
-</resources>
+</LinearLayout>
