@@ -129,9 +129,11 @@ public class  vbo {
         mShader.UseProgram();
 
 
+/*
         mPositionHandle = mShader.GetAttribLocation("vPosition");
         mColorHandle = mShader.GetUniformLocation("vColor");
         mMVPMatrixHandle = mShader.GetUniformLocation("uMVPMatrix");
+*/
 
         /*NEW*/
         int nMinMaxHandle = mShader.GetUniformLocation("vMinMax");
